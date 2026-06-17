@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(10px);
+border-radius: 12px;
+margin: 20px 40px;
+position: sticky;
+top: 20px;
+z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 25px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#eef5ff,#ffffff);
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 80px;
+    gap:50px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-left h1{
+    font-size:58px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero-left p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:30px;
+    max-width:600px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.primary-btn{
+    background:#2563eb;
+    color:white;
+    padding:14px 30px;
+    border:none;
+    border-radius:8px;
+}
+
+.secondary-btn{
+    background:white;
+    border:2px solid #2563eb;
+    color:#2563eb;
+    padding:14px 30px;
+    border-radius:8px;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.hero-right{
+    flex:1;
+    text-align:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:500px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+.hero-left h1 span{
+    color:#2563eb;
+}
+.primary-btn,
+.secondary-btn{
+    transition: all 0.3s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover{
+    transform: translateY(-3px);
+}
+
+.features {
+    padding: 80px 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    width: 300px;
+    background: #f8fbff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+.about {
+    padding: 80px 60px;
+    text-align: center;
+    background: #eef5ff;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+.primary-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-4px) scale(1.03);
+}
+/* Contact Section */
+.contact {
+    padding: 80px 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+/* Footer */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.2);
+}
