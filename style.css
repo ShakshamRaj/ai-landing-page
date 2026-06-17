@@ -279,6 +279,8 @@ footer {
     width:100%;
 }
 
+
+
 .hero-right img{
     width:100%;
     max-width:350px;
@@ -331,4 +333,15 @@ footer {
     body{
         overflow-x:hidden;
     }
+}
+@media (max-width:768px){
+
+    .hero{
+        height:auto;
+        min-height:auto;
+        flex-direction:column;
+        text-align:center;
+        padding:40px 20px;
+    }
+
 }
